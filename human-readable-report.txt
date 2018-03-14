@@ -1,0 +1,1 @@
+Reading file: /output-json.txt. There are 202 line. Time elapsed to read file is 0.024696ms. Buffer size is 8170 bytes. Throughput rate is 0.3308228053126012 bytes per second.
