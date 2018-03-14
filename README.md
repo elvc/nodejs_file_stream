@@ -5,8 +5,8 @@
 * Consume line separated text and outputs objects including elapsed time, total length in bytes and total lines
 
 ```
-node consume-file.js
 // this will read "dummy-text-file.txt" and output to "output-json.txt"
+node consume-file.js
 ```
 
 ## Human readable report
@@ -14,8 +14,8 @@ node consume-file.js
 * Create human readable summary with throughput rate bytes/sec
 
 ```
-node read-report.js
 // this will output report to "human-readable-report.txt"
+node read-report.js
 ```
 
 ## Report number of lines and growth rate of a file
@@ -25,7 +25,8 @@ cd tail
 node tail.js <filename>
 ```
 
-* for example: `node tail.js output-file.txt` will monitor the changes of number of lines written/deleted and the growth rate
+* For example: `node tail.js output-file.txt` will monitor the changes of number of lines written/deleted and the growth rate
+* You can try modifying the file and save. The report will be automatically generated.
 * Output will look something like this:
 
 ```
